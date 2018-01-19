@@ -10,7 +10,7 @@ const TaskSchema = new Schema({
         required : "Task Name Required"
     },
     DateCreated:{
-        type:Date,
+        type:String,
         required:"Date creation required"
     }
 });
